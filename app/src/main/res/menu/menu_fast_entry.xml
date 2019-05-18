@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <item
+    android:id="@+id/menu_minus"
+    android:icon="@drawable/transfer_out"
+    android:title="@string/menu_new_expense"
+    app:showAsAction="ifRoom"/>
+  <item
+    android:id="@+id/menu_plus"
+    android:icon="@drawable/transfer_in"
+    android:title="@string/menu_new_income"
+    app:showAsAction="always"/>
+  <item
+    android:id="@+id/menu_transfer"
+    android:icon="@drawable/transfer"
+    android:title="@string/menu_new_transfer"
+    app:showAsAction="ifRoom"/>
+</menu>

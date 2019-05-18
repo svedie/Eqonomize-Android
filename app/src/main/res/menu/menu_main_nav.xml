@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:showIn="navigation_view">
+
+  <item android:title="@string/menu_drawer_management_group">
+    <menu>
+      <group android:checkableBehavior="single">
+        <item
+          android:id="@+id/nav_management_overview"
+          android:icon="@drawable/book_open_outline"
+          android:title="@string/menu_drawer_management_overview"/>
+        <item
+          android:id="@+id/nav_management_expenses"
+          android:icon="@drawable/bank_transfer_out"
+          android:title="@string/menu_drawer_management_expenses"/>
+        <item
+          android:id="@+id/nav_management_incomes"
+          android:icon="@drawable/bank_transfer_in"
+          android:title="@string/menu_drawer_management_incomes"/>
+        <item
+          android:id="@+id/nav_management_transfers"
+          android:icon="@drawable/bank_transfer"
+          android:title="@string/menu_drawer_management_transfers"/>
+        <item
+          android:id="@+id/nav_management_schedule"
+          android:icon="@drawable/av_timer"
+          android:title="@string/menu_drawer_configuration_schedule"/>
+        <item
+          android:id="@+id/nav_management_securities"
+          android:icon="@drawable/cash_usd"
+          android:title="@string/menu_drawer_configuration_securities"/>
+        <item
+          android:id="@+id/nav_management_accounts"
+          android:icon="@drawable/bank"
+          android:title="@string/menu_drawer_configuration_accounts"/>
+        <item
+          android:id="@+id/nav_settings_categories"
+          android:icon="@drawable/tag_outline"
+          android:title="@string/menu_drawer_settings_categories"/>
+      </group>
+    </menu>
+  </item>
+
+  <!--<item android:title="@string/menu_drawer_statistics_group">-->
+  <!--<menu>-->
+  <!--<item-->
+  <!--android:id="@+id/nav_statistics_option1"-->
+  <!--android:icon="@drawable/chart_bar"-->
+  <!--android:title="@string/menu_drawer_statistics_option1"/>-->
+  <!--<item-->
+  <!--android:id="@+id/nav_statistics_option2"-->
+  <!--android:icon="@drawable/chart_bar"-->
+  <!--android:title="@string/menu_drawer_statistics_option1"/>-->
+  <!--<item-->
+  <!--android:id="@+id/nav_statistics_option3"-->
+  <!--android:icon="@drawable/chart_bar"-->
+  <!--android:title="@string/menu_drawer_statistics_option1"/>-->
+  <!--</menu>-->
+  <!--</item>-->
+
+  <item android:title="@string/menu_drawer_settings_group">
+    <menu>
+      <group android:checkableBehavior="single">
+        <item
+          android:id="@+id/nav_settings_openfile"
+          android:icon="@drawable/file_find_outline"
+          android:title="@string/menu_drawer_settings_openfile"/>
+      </group>
+    </menu>
+  </item>
+
+  <item android:title="@string/menu_drawer_help_group">
+    <menu>
+      <group android:checkableBehavior="single">
+        <item
+          android:id="@+id/nav_help_about"
+          android:icon="@drawable/information_outline"
+          android:title="@string/menu_drawer_help_about"/>
+      </group>
+    </menu>
+  </item>
+</menu>
